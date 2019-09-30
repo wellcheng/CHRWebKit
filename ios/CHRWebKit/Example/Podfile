@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'CHRWebKit_Example' do
+  pod 'CHRWebKit', :path => '../', :subspecs => ['CHRWebView', 'CHRJSBridge']
+
+  target 'CHRWebKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

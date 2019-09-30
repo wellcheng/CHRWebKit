@@ -1,0 +1,23 @@
+PODS:
+  - CHRWebKit/CHRJSBridge (0.1.0):
+    - CHRWebKit/Core
+  - CHRWebKit/CHRWebView (0.1.0):
+    - CHRWebKit/Core
+  - CHRWebKit/Core (0.1.0):
+    - CHRWebKit/Core/Utils (= 0.1.0)
+  - CHRWebKit/Core/Utils (0.1.0)
+
+DEPENDENCIES:
+  - CHRWebKit/CHRJSBridge (from `../`)
+  - CHRWebKit/CHRWebView (from `../`)
+
+EXTERNAL SOURCES:
+  CHRWebKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHRWebKit: 8300f7495bd2ac9ef5016492825545032877e547
+
+PODFILE CHECKSUM: 2b6d2ba34f3cd1628ea030662c2226fcc26a2aa9
+
+COCOAPODS: 1.7.5
